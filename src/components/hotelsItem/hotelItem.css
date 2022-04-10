@@ -1,0 +1,26 @@
+.hotel-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+    padding-right: 30px;
+}
+
+.house {
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+    background-color: rgba(65, 82, 46, .05);
+    position: relative
+}
+
+.house span{
+    margin-left: -16px;
+    position: absolute;             
+    top: 50%;                        
+    transform: translate(0, -50%)
+}
+.descr-hoiel {
+    width: 520px;
+    margin-left: 24px;
+}

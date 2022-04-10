@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #E7E7E7; /*Цвет скролла*/
+} 
+::-webkit-scrollbar-thumb { 
+	border-radius: 5px; /*Закругление ползунка*/
+	background-color: #41522E; /*Цвет ползунка*/
+} 
+::-webkit-scrollbar{ 
+	width: 2px;
+    right:-100px;
+}

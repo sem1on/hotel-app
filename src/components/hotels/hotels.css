@@ -1,0 +1,49 @@
+.hotels {
+    width: 665px;
+    height: 875px;
+    background-color: #fff;
+    margin-left: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 48px 32px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.main-descr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #424242;
+    font-weight: 500;
+    font-size: 32px;
+    
+}
+
+.main-descr span {
+    margin: 0 20px;
+}
+
+.data {
+    font-size: 24px;
+    font-weight: 400;
+    color: #41522E;
+}
+
+.fav-hotels {
+    text-align: start;
+    color: #424242;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.hotels-list {
+    margin-top: 20px;
+    height: 510px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,44 @@
+.favorit {
+    width: 360px;
+    height: 440px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.favorit h3 {
+    font-size: 24px;
+    color: #424242;
+    margin-top: 33px;
+    font-weight: 500;
+}
+
+.sort-btns {
+    margin-top: 28px;
+}
+.sort-btns button {
+    height: 28px;
+    border: 1px solid #41522E;
+    background: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #41522E;
+    padding: 4px 8px;
+    margin-right: 8px;
+}
+
+.favorit-items {
+    margin-top: 30px;
+    height: 280px;
+    overflow-y: scroll;
+    padding-right: 20px;
+}
+

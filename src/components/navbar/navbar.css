@@ -1,0 +1,24 @@
+.navbar {
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.navbar h1 {
+    color: #424242;
+    font-size: 24px;
+}
+
+.out {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    color: #41522E;
+}
+.out span {
+    margin-left: 12px;
+}

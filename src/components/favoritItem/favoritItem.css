@@ -1,0 +1,70 @@
+.favItem {
+    width: 280px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main h5 {
+    font-weight: 300;
+    font-size: 17px;
+    color: #424242;
+}
+
+.date {
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787;
+    margin-top: 4px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+}
+.name {
+    color: #878787;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.maney {
+    font-weight: 400;
+    font-size: 17px;
+    color: #424242;
+}
+
+
+
+/* .rating-result {
+	width: 265px;
+	margin: 0 auto;
+} */
+.rating-result span {
+	padding: 0;
+	font-size: 24px;
+	margin: 0;
+	color: lightgrey;
+}
+.rating-result > span:before {
+	content: '★';
+}
+.rating-result > span.active {
+	color: #CDBC1E;
+}
