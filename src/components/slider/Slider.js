@@ -12,49 +12,49 @@ import seven from './7.jpg';
 
 const Slider = () => {
     return (
-        <div class="slider">
-            <div class="slide-track">
-                <div class="slide">
+        <div className="slider">
+            <div className="slide-track">
+                <div className="slide">
                     <img src={one} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={two} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={three} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={four} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={five} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={six} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={seven} height="150" width="165" alt="" />
                 </div>
 
-                <div class="slide">
+                <div className="slide">
                     <img src={one} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={two} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={three} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={four} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={five} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={six} height="150" width="165" alt="" />
                 </div>
-                <div class="slide">
+                <div className="slide">
                     <img src={seven} height="150" width="165" alt="" />
                 </div>
                 

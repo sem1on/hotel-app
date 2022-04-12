@@ -27,29 +27,33 @@
     font-weight: 500;
 }
 
-.login-input {
+.form_field {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     padding: 15px;
     color: #424242;
     font-weight: 300;
 }
 
-.login-input label {
+.form_field label {
     font-size: 16px;
     color: #424242;
     font-weight: 300;
 }
 
-.login-input input {
+.form_field input {
     width: 345px;
     height: 50px;
     border: #C9CACC 1px solid;
     border-radius: 5px;
     margin-top: 5px;
+    padding: 16px;
+    color: #424242;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .login-btn {
@@ -69,4 +73,20 @@
 
 .login-btn:active {
     background: linear-gradient(135deg, rgb(65, 82, 46,), rgb(190, 128, 34));
+}
+
+.form_error {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+    display: none;
+}
+  
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .form_error {
+    display: block;
 }

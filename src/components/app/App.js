@@ -9,14 +9,15 @@ import Login from '../login/Login';
 function App() {
   return (
     <div className="App">
-        <Navbar/>
+        <Login/>
+        {/* <Navbar/>
         <div className='wrapper'>
             <div>
                 <Search/>
                 <Favorit/>
             </div>
             <Hotels/>
-        </div>
+        </div> */}
     </div>
   );
 }

@@ -6,7 +6,7 @@ const Favorit = () => {
         <div className='favorit'>
             <h3>Избранное</h3>
             <div className="sort-btns">
-                <button>Рейтинг</button>
+                <button>Рейтинг </button>
                 <button>Цена</button>
             </div>
             <div className="favorit-items">

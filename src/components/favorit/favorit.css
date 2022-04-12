@@ -37,7 +37,7 @@
 
 .favorit-items {
     margin-top: 30px;
-    height: 280px;
+    /* height: 280px; */
     overflow-y: scroll;
     padding-right: 20px;
 }

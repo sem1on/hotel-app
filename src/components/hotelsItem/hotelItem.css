@@ -14,6 +14,23 @@
     position: relative
 }
 
+.main-h {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-h h5 {
+    font-weight: 300;
+    font-size: 17px;
+    color: #424242;
+}
+
+.main-h svg path:hover {
+    fill: #C4C4C4;
+    cursor: pointer;
+}
+
 .house span{
     margin-left: -16px;
     position: absolute;             
