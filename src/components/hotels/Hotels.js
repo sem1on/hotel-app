@@ -2,6 +2,8 @@ import React from 'react';
 import HotelItem from '../hotelsItem/HotelItem';
 import Slider from '../slider/Slider';
 
+import { addDaysToDate } from '../../utils/dateFormat';
+
 import './hotels.css';
 
 const Hotels = () => {

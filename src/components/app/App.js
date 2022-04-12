@@ -1,3 +1,4 @@
+import React from 'react';
 
 import Search from '../search/Search';
 import Favorit from '../favorit/Favorit';
@@ -9,15 +10,15 @@ import Login from '../login/Login';
 function App() {
   return (
     <div className="App">
-        <Login/>
-        {/* <Navbar/>
+        {/* <Login/> */}
+        <Navbar/>
         <div className='wrapper'>
             <div>
                 <Search/>
                 <Favorit/>
             </div>
             <Hotels/>
-        </div> */}
+        </div>
     </div>
   );
 }

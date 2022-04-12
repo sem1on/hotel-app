@@ -4,5 +4,4 @@ const initialState = {
     checkIn:'',
     checkOut:'',
     isFavorite: false,
-    hotelsLoadingStatus: 'idle',
 }
