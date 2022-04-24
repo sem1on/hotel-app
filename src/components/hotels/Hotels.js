@@ -2,11 +2,17 @@ import React from 'react';
 import HotelItem from '../hotelsItem/HotelItem';
 import Slider from '../slider/Slider';
 
-import { addDaysToDate } from '../../utils/dateFormat';
+import { useDispatch, useSelector } from 'react-redux';
+
+
+
 
 import './hotels.css';
 
 const Hotels = () => {
+
+   
+
     return (
         <div className='hotels'>
             <div className="main-title">
@@ -21,7 +27,7 @@ const Hotels = () => {
                 </div>
                 <div className="data">07 июля 2020</div>
             </div>
-            <Slider/>
+            <Slider/>  
             <p className='fav-hotels'>Добавлено в Избранное: 3 отеля</p>
             <div className="hotels-list">
                 <HotelItem/>

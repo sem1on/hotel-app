@@ -1,0 +1,1 @@
+export const HOTELS_ACTION = 'HOTELS_ACTION';

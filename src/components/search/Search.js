@@ -1,14 +1,11 @@
 import React from 'react';
 import { useMemo } from 'react';
 
-import { getCurrentDate } from '../../utils/dateFormat';
-
 import './search.css';
 
 
 const Search = () => {
 
-    const currentDate = useMemo(() => getCurrentDate("YYYY-MM-DD"), []);
 
     return (
         <div className='search'>
@@ -19,7 +16,7 @@ const Search = () => {
                 </div>
                 <div className='search-input'>
                     <label htmlFor="date">Дата заселения</label>
-                    <input id='date' type='date' defaultValue={currentDate}/>    
+                    <input id='date' type='date'/>    
                 </div>
                 <div className='search-input'>
                     <label htmlFor="counter">Количество дней</label>

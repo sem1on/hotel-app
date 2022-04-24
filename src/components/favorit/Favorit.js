@@ -14,10 +14,7 @@ const Favorit = () => {
                 <FavoritItem/>
                 <FavoritItem/>
                 <FavoritItem/>
-                <FavoritItem/>
-                <FavoritItem/>
-                <FavoritItem/>
-                <FavoritItem/>
+               
             </div>
             
         </div>
